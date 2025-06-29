@@ -129,7 +129,7 @@ python -m tests.test_flutter_app
 
 ## 📁 Project Structure
 ```bash
-flutter_app_automation/
+Android/
 │── configs/
 │   ├── __init__.py
 │   ├── config.py  # Stores Appium capabilities

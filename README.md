@@ -32,20 +32,17 @@ cat README.md  # Follow the instructions in the iOS README
 
 ## 📁 Project Structure
 ```bash
-flutter_app_automation/
-│── android/  # Contains automation scripts for Android
+```bash
+flutter-appium-python/
+├── android/                 # Contains automation scripts for Android
+│   ├── configs/            # Stores Appium capability setup
+│   ├── tests/              # Test scripts
+│   ├── SampleApp/          # Flutter app APK or related assets
+│   ├── requirements.txt    # Python dependencies
+│   ├── .gitignore          # Android-specific ignore rules
+│   └── README.md           # Android-specific instructions
 │── ios/  # Contains automation scripts for iOS
-│── configs/
-│   ├── __init__.py
-│   ├── config.py  # Stores Appium capabilities
-│── tests/
-│   ├── __init__.py
-│   ├── test_flutter_calculator.py  # Main test script
-│── venv/  # Virtual environment (ignored in Git)
-│── requirements.txt  # Python dependencies
-│── .gitignore  # Ignore unnecessary files
-│── README.md  # Root documentation
-```
+├── README.md               # Root documentation (this file)
 
 ---
 
